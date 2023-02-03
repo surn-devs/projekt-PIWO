@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen ">
     <div
-      class="masthead bg-primary-700 border-b-2 border-primary-900 pt-6 text-center pb-4 px-4 flex justify-around"
+      class="masthead bg-primary-500 border-b-2 border-primary-900 pt-6 text-center pb-4 px-4 flex justify-around"
     >
       <div class="w-10"></div>
       <div class="text-2xl">Project PIWO</div>
@@ -25,62 +25,62 @@
           <img
             src="https://picsum.photos/160/160"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=1"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=3"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=4"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=5"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=6"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=7"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
         <div class="border-primary-900 border-4 rounded-3xl w-40 h-40">
           <img
             src="https://picsum.photos/160/160?random=8"
             alt="example content tile"
-            class="object-fit rounded-2xl w-40 h-40 my-0"
+            class="object-fit rounded-2xl w-40 h-40 my-0 bg-beer"
           />
         </div>
       </div>
     </div>
     <div
-      class="footer p-4 sticky bottom-0 border-t-2 border-primary-900 z-10 bg-primary-700"
+      class="footer p-4 sticky bottom-0 border-t-2 border-primary-900 z-10 bg-primary-500"
     >
       <div class="flex flex-row justify-around">
         <img
