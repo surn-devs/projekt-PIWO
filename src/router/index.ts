@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import AboutView from "../views/AboutView.vue";
 import HomeView from "../views/HomeView.vue";
 import SignView from "../views/SignView.vue";
+import NotFound from "../views/NotFound.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +51,11 @@ const router = createRouter({
       path: "/SpecialOffer",
       name: "SpecialOffer",
       component: SignView,
+    },
+    {
+      path: "/:catchAll(.*)",
+      name: "NotFound",
+      component: NotFound,
     },
   ],
 });
