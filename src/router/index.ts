@@ -8,17 +8,47 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
+      name: "Home",
       component: HomeView,
     },
     {
-      path: "/about",
-      name: "about",
+      path: "/About",
+      name: "About",
       component: AboutView,
     },
     {
-      path: "/sign",
-      name: "sign",
+      path: "/Sign",
+      name: "Sign",
+      component: SignView,
+    },
+    {
+      path: "/Calendar",
+      name: "Calendar",
+      component: SignView,
+    },
+    {
+      path: "/CreateEvent",
+      name: "CreateEvent",
+      component: SignView,
+    },
+    {
+      path: "/Friends",
+      name: "Friends",
+      component: SignView,
+    },
+    {
+      path: "/Map",
+      name: "Map",
+      component: SignView,
+    },
+    {
+      path: "/Recomended",
+      name: "Recomended",
+      component: SignView,
+    },
+    {
+      path: "/SpecialOffer",
+      name: "SpecialOffer",
       component: SignView,
     },
   ],

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HomeAbout from "../components/HomeAbout.vue";
+import DashboardFrame from "../components/DashboardFrame.vue";
 </script>
 
 <template>
   <main>
-    <HomeAbout />
+    <DashboardFrame />
   </main>
 </template>
