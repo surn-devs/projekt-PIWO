@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen">
+  <div class="h-screen ">
     <div
-      class="masthead border-b-2 border-primary-900 my-8 pt-2 text-center pb-4 px-4 flex justify-around"
+      class="masthead bg-primary-700 border-b-2 border-primary-900 pt-6 text-center pb-4 px-4 flex justify-around"
     >
       <div class="w-10"></div>
       <div class="text-2xl">Project PIWO</div>
@@ -12,7 +12,7 @@
         <img class="items-end" src="../assets/icons/User.svg" alt="user-icon" />
       </div>
     </div>
-    <div class="main px-4 flex flex-col justify-center">
+    <div class="main pt-4 px-4 flex flex-col justify-center bg-primary-500">
       <div class="google-anno-domini w-72 h-40 mx-auto mb-4">
         <img
           class="max-w-full max-h-full mx-auto"
@@ -80,27 +80,39 @@
       </div>
     </div>
     <div
-      class="footer p-4 sticky bottom-0 border-t-2 border-primary-900 z-10 bg-primary-300"
+      class="footer p-4 sticky bottom-0 border-t-2 border-primary-900 z-10 bg-primary-700"
     >
       <div class="flex flex-row justify-around">
         <img
-          @click="this.$router.push({name:'Calendar'})"
-          src="../assets/icons/Calendar.svg" alt="Calendar" />
+          @click="this.$router.push({ name: 'Calendar' })"
+          src="../assets/icons/Calendar.svg"
+          alt="Calendar"
+        />
         <img
-          @click="this.$router.push({name:'CreateEvent'})"
-          src="../assets/icons/CreateEvent.svg" alt="CreateEvent" />
+          @click="this.$router.push({ name: 'CreateEvent' })"
+          src="../assets/icons/CreateEvent.svg"
+          alt="CreateEvent"
+        />
         <img
-          @click="this.$router.push({name:'Recomended'})"
-          src="../assets/icons/Happy.svg" alt="Recomended" />
+          @click="this.$router.push({ name: 'Recomended' })"
+          src="../assets/icons/Happy.svg"
+          alt="Recomended"
+        />
         <img
-          @click="this.$router.push({name:'Friends'})"
-          src="../assets/icons/Group.svg" alt="Friends" />
+          @click="this.$router.push({ name: 'Friends' })"
+          src="../assets/icons/Group.svg"
+          alt="Friends"
+        />
         <img
-          @click="this.$router.push({name:'Map'})"
-          src="../assets/icons/Compass.svg" alt="Map" />
+          @click="this.$router.push({ name: 'Map' })"
+          src="../assets/icons/Compass.svg"
+          alt="Map"
+        />
         <img
-          @click="this.$router.push({name:'SpecialOffer'})"
-          src="../assets/icons/Bag.svg" alt="SpecialOffer" />
+          @click="this.$router.push({ name: 'SpecialOffer' })"
+          src="../assets/icons/Bag.svg"
+          alt="SpecialOffer"
+        />
       </div>
     </div>
   </div>

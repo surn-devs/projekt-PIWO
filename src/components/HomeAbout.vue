@@ -4,7 +4,7 @@
   >
     <h1 class="text-2xl">Demo</h1>
     <button
-      @click="this.$router.push({name: 'About'})"
+      @click="this.$router.push({ name: 'About' })"
       class="border-2 border-primary-900 p-4 rounded hover:bg-primary-300"
     >
       Let's start with first screen HERE

@@ -28,7 +28,7 @@
 
           <button
             class="mt-4 bg-primary-100 rounded-lg p-4 hover:bg-primary-300"
-            @click="this.$router.push({name:'sign'})"
+            @click="this.$router.push({ name: 'sign' })"
           >
             Załóż konto/Zaloguj się
           </button>
