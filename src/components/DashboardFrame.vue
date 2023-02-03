@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen ">
+  <div class="h-screen">
     <div
       class="masthead bg-primary-500 border-b-2 border-primary-900 pt-6 text-center pb-4 px-4 flex justify-around"
     >
