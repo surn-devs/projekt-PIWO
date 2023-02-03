@@ -27,7 +27,7 @@
           </div>
 
           <button
-            class="mt-4 bg-primary-100 rounded-lg p-4"
+            class="mt-4 bg-primary-100 rounded-lg p-4 hover:bg-primary-300"
             @click="this.$router.push('sign')"
           >
             Załóż konto/Zaloguj się
