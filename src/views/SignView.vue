@@ -77,6 +77,11 @@
           Zarejestruj się tutaj
         </p>
       </div>
+      <div class="mt-12">
+        <p class="text-center text-xs">
+          © SURN - 2023
+        </p>
+      </div>
     </div>
   </div>
 </template>
