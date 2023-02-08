@@ -9,7 +9,11 @@
         @click="this.$router.push({ name: 'About' })"
         class="border-2 border-primary-800 rounded-full w-10 h-10 flex"
       >
-        <img class="items-end" src="../../assets/icons/User.svg" alt="user-icon" />
+        <img
+          class="items-end"
+          src="../../assets/icons/User.svg"
+          alt="user-icon"
+        />
       </div>
     </div>
     <div class="main pt-4 px-4 flex flex-col justify-center bg-primary-500">

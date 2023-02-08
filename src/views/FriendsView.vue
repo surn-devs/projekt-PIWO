@@ -4,9 +4,7 @@
       viewTitle="Friends view title"
       bannerPath="/img/banners/Ford.png"
     >
-    <div class="py-60">
-        Hello World
-    </div>
+      <div class="py-60">Hello World</div>
     </UserLayout>
   </div>
 </template>

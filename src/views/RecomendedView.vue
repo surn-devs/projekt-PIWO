@@ -4,9 +4,7 @@
       viewTitle="Recomended view title"
       bannerPath="/img/banners/ChinaTown.png"
     >
-    <div class="py-60">
-        Hello World
-    </div>
+      <div class="py-60">Hello World</div>
     </UserLayout>
   </div>
 </template>

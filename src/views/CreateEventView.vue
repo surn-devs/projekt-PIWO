@@ -4,9 +4,7 @@
       viewTitle="Create Event view title"
       bannerPath="/img/banners/CocaCola.png"
     >
-    <div class="py-60">
-        Hello World
-    </div>
+      <div class="py-60">Hello World</div>
     </UserLayout>
   </div>
 </template>
